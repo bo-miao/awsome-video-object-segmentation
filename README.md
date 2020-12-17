@@ -173,19 +173,12 @@ In image, video data, it is aimed to classify abnormal images or to segment abno
 - Patch SVDD, Patch-level SVDD for Anomaly Detection and Segmentation  | **[arxiv' 20]**[`pdf`](https://arxiv.org/pdf/2006.16067.pdf)[`code`](https://github.com/nuclearboy95/Anomaly-Detection-PatchSVDD-PyTorch)
 - Unsupervised anomaly segmentation via deep feature reconstruction  | **[Neurocomputing' 20]**[`pdf`](https://www.sciencedirect.com/science/article/pii/S0925231220317951)['code'](https://github.com/YoungGod/DFR)
 
-1.2. Tutorials
-^^^^^^^^^^^^^^
+1.2. Performance
 
-===================================================== ============================================  =====  ============================  ==========================================================================================================================================================================
-Tutorial Title                                        Venue                                         Year   Ref                           Materials
-===================================================== ============================================  =====  ============================  ==========================================================================================================================================================================
-Data mining for anomaly detection                     PKDD                                          2008   [#Lazarevic2008Data]_         `[Video] <http://videolectures.net/ecmlpkdd08_lazarevic_dmfa/>`_
-Outlier detection techniques                          ACM SIGKDD                                    2010   [#Kriegel2010Outlier]_        `[PDF] <https://imada.sdu.dk/~zimek/publications/KDD2010/kdd10-outlier-tutorial.pdf>`_
-Anomaly Detection: A Tutorial                         ICDM                                          2011   [#Chawla2011Anomaly]_         `[PDF] <http://webdocs.cs.ualberta.ca/~icdm2011/downloads/ICDM2011_anomaly_detection_tutorial.pdf>`_
-Anomaly Detection in Networks                         KDD                                           2017   [#Mendiratta2017Anomaly]_     `[Page] <https://veena-mendiratta.blog/tutorial-anomaly-detection-in-networks/>`_
-Which Anomaly Detector should I use?                  ICDM                                          2018   [#Ting2018Which]_             `[PDF] <https://federation.edu.au/__data/assets/pdf_file/0011/443666/ICDM2018-Tutorial-Final.pdf>`_
-===================================================== ============================================  =====  ============================  ==========================================================================================================================================================================
-
+| Paper  | J&F    | mAP     | FPS     |
+| :----: | :----: | :----:  | :----:  |
+| 单元格  | 单元格  | 单元格   | 单元格   |
+| 单元格  | 单元格  | 单元格   | 单元格   |
 
 
 ## Contact & Feedback
