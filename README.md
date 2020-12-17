@@ -22,21 +22,21 @@ Video instance segmentation not only need to segment foreground object(s)/instan
 
 ## Video object segmentation
 - A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation | **[CVPR' 16]** |[`[pdf]`](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.pdf)
-- (OSVOS) One-Shot Video Object Segmentation | **[CVPR' 17]** |[`[pdf]`](https://openaccess.thecvf.com/content_cvpr_2017/papers/Caelles_One-Shot_Video_Object_CVPR_2017_paper.pdf) | [`[code]`](https://github.com/kmaninis/OSVOS-PyTorch)
-- (MaskTrack) Learning Video Object Segmentation from Static Images | **[CVPR' 17]** |[`[pdf]`](https://openaccess.thecvf.com/content_cvpr_2017/papers/Perazzi_Learning_Video_Object_CVPR_2017_paper.pdf) | [`[code]`](https://github.com/omkar13/masktrack)
-- (OSVOS-S) Video object segmentation without temporal information | **[TPAMI' 18]** |[`[pdf]`](https://arxiv.org/pdf/1709.06031.pdf)
-- (Lucid) Lucid Data Dreaming for Video Object Segmentation | **[IJCV' 19]** |[`[pdf]`](https://link.springer.com/article/10.1007/s11263-019-01164-6) | [`[code]`](https://github.com/yelantf/pyLucid)
-- (RANet) RANet: Ranking Attention Network for Fast Video Object Segmentation | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.06647.pdf) | [`[code]`](https://github.com/Storife/RANet)
-- (e-OSVOS) Make One-Shot Video Object Segmentation Efficient Again | **[NIPS' 20]** |[`[pdf]`](https://proceedings.neurips.cc//paper/2020/file/781397bc0630d47ab531ea850bddcf63-Paper.pdf) | [`[code]`](https://github.com/dvl-tum/e-osvos)
+- (**OSVOS**) One-Shot Video Object Segmentation | **[CVPR' 17]** |[`[pdf]`](https://openaccess.thecvf.com/content_cvpr_2017/papers/Caelles_One-Shot_Video_Object_CVPR_2017_paper.pdf) | [`[code]`](https://github.com/kmaninis/OSVOS-PyTorch)
+- (**MaskTrack**) Learning Video Object Segmentation from Static Images | **[CVPR' 17]** |[`[pdf]`](https://openaccess.thecvf.com/content_cvpr_2017/papers/Perazzi_Learning_Video_Object_CVPR_2017_paper.pdf) | [`[code]`](https://github.com/omkar13/masktrack)
+- (**OSVOS-S**) Video object segmentation without temporal information | **[TPAMI' 18]** |[`[pdf]`](https://arxiv.org/pdf/1709.06031.pdf)
+- (**Lucid**) Lucid Data Dreaming for Video Object Segmentation | **[IJCV' 19]** |[`[pdf]`](https://link.springer.com/article/10.1007/s11263-019-01164-6) | [`[code]`](https://github.com/yelantf/pyLucid)
+- (**RANet**) RANet: Ranking Attention Network for Fast Video Object Segmentation | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.06647.pdf) | [`[code]`](https://github.com/Storife/RANet)
+- (**e-OSVOS**) Make One-Shot Video Object Segmentation Efficient Again | **[NIPS' 20]** |[`[pdf]`](https://proceedings.neurips.cc//paper/2020/file/781397bc0630d47ab531ea850bddcf63-Paper.pdf) | [`[code]`](https://github.com/dvl-tum/e-osvos)
 
 
 
 ## Video instance segmentation
 
 
-1.2. Performance
+## Performance
 
-|                        DAVIS16 VAL                                        |
+### DAVIS16 VAL
 | Method                |year  |Technique| J      | F      | J&F   |TIME(MS)|
 | :----:                |:----:|  :----: | :----: | :----: | :----:| :----: |
 | OSVOS                 |2017  | OL      | 79.8   | 80.6   |80.2   | 10000  |
@@ -49,7 +49,7 @@ Video instance segmentation not only need to segment foreground object(s)/instan
 
 
 
-|                        DAVIS17 VAL                                        |
+### DAVIS17 VAL
 | Method                |year  |Technique| J      | F      | J&F   |TIME(MS)|
 | :----:                |:----:|  :----: | :----: | :----: | :----:| :----: |
 | OSVOS                 |2017  | OL      | 56.6   |63.9    | 60.3  | 10000  |
@@ -59,7 +59,7 @@ Video instance segmentation not only need to segment foreground object(s)/instan
 
 
 
-|                        DAVIS17 TEST                                       |
+### DAVIS17 TEST
 | Method                |year  |Technique| J      | F      | J&F   |TIME(MS)|
 | :----:                |:----:|  :----: | :----: | :----: | :----:| :----: |
 | OSVOS                 |2017  | OL      |47.0    | 54.8   |50.9   | 10000  |
@@ -70,7 +70,7 @@ Video instance segmentation not only need to segment foreground object(s)/instan
 
 
 
-|                        YouTube-VOS VAL                   |
+### YouTube-VOS VAL
 | Method                |year  |Technique| Overall|TIME(MS)|
 | :----:                |:----:|  :----: | :----: | :----: |
 | OSVOS                 |2017  | OL      | 58.8   | 10000  |
@@ -78,7 +78,7 @@ Video instance segmentation not only need to segment foreground object(s)/instan
 
 
 
-|                        YouTube-VIS                                  |
+### YouTube-VIS
 | Method                | Optical Flow | VAL AP |TEST AP|  FPS        |
 | :----:                |      :----:  | :----: |:----: | :----:      |
 | MaskTrack R-CNN       |      ✘       | 30.3   |32.3   |20 (1080Ti)  |
