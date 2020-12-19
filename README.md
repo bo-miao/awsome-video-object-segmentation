@@ -1,7 +1,7 @@
 # awesome video object/instance segmentation
 A curated list of awesome video object/instance segmentation resources.
 
-*Last updated: 2020/12/17*
+*Last updated: 2020/12/19*
 
 ## What is video object segmentation and video instance segmentation?
 
@@ -13,6 +13,10 @@ Video instance segmentation not only need to segment foreground object(s)/instan
 ## Dataset
 - DAVIS [`[Download]`](https://davischallenge.org/davis2017/code.html#semisupervised)
 - YouTube-VOS and -VIS [`[Download]`](https://youtube-vos.org/dataset/vis/)
+- Cityscapes [`[Download]`](https://www.cityscapes-dataset.com/)
+- CamVid [`[Download]`](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)
+- COCO [`[Download]`](https://cocodataset.org/#download)
+
 
 
 ## Table of Contents
@@ -40,7 +44,7 @@ Video instance segmentation not only need to segment foreground object(s)/instan
 - (**e-OSVOS**) Make One-Shot Video Object Segmentation Efficient Again | **[NIPS' 20]** |[`[pdf]`](https://proceedings.neurips.cc//paper/2020/file/781397bc0630d47ab531ea850bddcf63-Paper.pdf) | [`[code]`](https://github.com/dvl-tum/e-osvos)
 - (**GC**) Fast Video Object Segmentation using the Global Context Module | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/2001.11243v2.pdf)
 - (**FRTM-VOS**) Learning Fast and Robust Target Models for Video Object Segmentation | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/2003.00908v2.pdf) | [`[code]`](https://github.com/andr345/frtm-vos)
-- (**PMVOS**) PMVOS: Pixel-Level Matching-Based Video Object Segmentation | **[Arxiv' 20]** |[`[pdf]`](https://arxiv.org/pdf/2009.08855v1.pdf)
+- (**PMVOS**) PMVOS: Pixel-Level Matching-Based Video Object Segmentation | **[arxiv' 20]** |[`[pdf]`](https://arxiv.org/pdf/2009.08855v1.pdf)
 - (**CFBI**) Collaborative Video Object Segmentation by Foreground-Background Integration | **[ECCV' 20]** |[`[pdf]`](https://arxiv.org/pdf/2003.08333v2.pdf) | [`[code]`](https://github.com/z-x-yang/CFBI)
 - (**TVOS**) A Transductive Approach for Video Object Segmentation | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/2004.07193v2.pdf) | [`[code]`](https://github.com/microsoft/transductive-vos.pytorch)
 - (**Siam R-CNN**) Siam R-CNN: Visual Tracking by Re-Detection | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/1911.12836v2.pdf) | [`[code]`](https://github.com/VisualComputingInstitute/SiamR-CNN)
@@ -185,9 +189,6 @@ Video instance segmentation not only need to segment foreground object(s)/instan
 | LWLVOS                |2020  |         | 81.5   |        |
 | DTMNet                |2020  |         | 65.6   |        |
 | SAT                   |2020  |         | 63.6   | 39     |
-
-
-
 
 
 
