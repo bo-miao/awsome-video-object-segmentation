@@ -201,6 +201,9 @@ Video instance segmentation not only need to segment foreground object(s)/instan
 - (**STEm-Seg**) STEm-Seg: Spatio-temporal Embeddings for Instance Segmentation in Videos | **[ECCV' 20]** |[`[pdf]`](https://link.springer.com/chapter/10.1007/978-3-030-58621-8_10) | [`[code]`](https://github.com/sabarim/STEm-Seg)
 - (**MaskProp**) Classifying, segmenting, and tracking object instances in video with mask propagation | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/1912.04573.pdf)
 - (**RGNN-VIS**) Learning Video Instance Segmentation with Recurrent Graph Neural Networks | **[arxiv' 20]** |[`[pdf]`](https://arxiv.org/pdf/2012.03911v1.pdf)
+- (**CompFeat**) CompFeat: Comprehensive Feature Aggregation for Video Instance Segmentation | **[AAAI' 21]** |[`[pdf]`](https://arxiv.org/pdf/2012.03400.pdf)
+- (**Transformer**) End-to-End Video Instance Segmentation with Transformers | **[arxiv' 20]** |[`[pdf]`](https://arxiv.org/pdf/2011.14503.pdf)
+
 
 
 ### Performance
@@ -213,10 +216,13 @@ Video instance segmentation not only need to segment foreground object(s)/instan
 | OSMN                  |2018  |         | 27.5   |        |
 | MaskTrack R-CNN       |2019  |         | 30.3   | 20     |
 | VIS2019 Winner        |2019  |         | 44.8   | <1     |
-| SipMask               |2020  |         | 33.7   | 30     |
+| SipMask               |2020  |         | 32.5   | 30     |    
+| SipMask ms-train      |2020  |         | 33.7   | 30     |
 | STEm-Seg              |2020  |         | 34.6   | 7      |
 | MaskProp              |2020  |         | 46.6   | <2     |
 | RGNN-VIS              |2020  |         | 37.7   | 25     |
+| CompFeat              |2021  |         | 35.3   |        |
+| Transformer           |2020  |         | 35.3   |27.7/57.7|
 
 
 
