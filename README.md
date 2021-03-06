@@ -5,9 +5,9 @@ A curated list of awesome video object/instance segmentation resources.
 
 ## What is video object segmentation and video instance segmentation?
 
-Video object segmentation is a binary labeling problem aiming to separate foreground object(s) from the background region of a video.
+Video object segmentation is a binary labeling problem aiming to separate specific foreground object(s) from the background region of a video, and each object mask should be linked across frames.
 
-Video instance segmentation not only need to segment foreground object(s)/instance(s), but also have to identify the category of each object and keep tracking objects across frames.
+Video instance segmentation not only need to segment foreground object(s)/instance(s), but also have to identify the category of each object.
 
 
 ## Dataset
