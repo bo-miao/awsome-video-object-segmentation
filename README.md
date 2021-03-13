@@ -1,7 +1,7 @@
 # awesome video object/instance segmentation
 A curated list of awesome video object/instance segmentation resources.
 
-**Pull requests are welcome to update this repo.**
+## Pull requests are welcome to update this repo.
 *Last updated: 2020/12/19*
 
 ## What is video object segmentation and video instance segmentation?
